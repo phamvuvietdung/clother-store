@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/home.css">
+    <!-- Link để thêm icon từ fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home_CSS-HTML</title>
+</head>
+<body>
+
+    <div class="home-container">
+
+        <!-- topbar component-->
+        <div class="topbar-container">
+            <ul class="topbar-left">
+                <li><a href="">CM24</a></li>
+                <li><a href="">84RISING*</a></li>
+                <li><a href="">COOLXPRINT</a></li>
+            </ul>
+
+            <ul class="topbar-right">
+                <li>
+                    <a href="">
+                        Tham gia CoolClub
+                        <i class="fa-solid fa-star"></i>
+                    </a>
+                </li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Về Coolmate</a></li>
+                <li><a href="">Trung tâm CSKH</a></li>
+                <li><a href="">Đăng nhập</a></li>
+            </ul>
+        </div>
+
+        <!-- top-promotion-bar -->
+        <div class="top-promotion-bar">
+            <a href="">
+                Ưu Đãi Lớn Khi Mua Đồ Thể Thao
+                <span>Khám phá ngay</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>          
+        </div>
+    
+        <!-- header-component-->
+        <div class="header-container">
+        <!-- Khối phía dưới này nếu hiển thị trên máy tính thì sẽ mất đi. khi về kích thước min sẽ hiện ra -->
+            <div class="header-for-tablet">
+                <a href=""><i class="fa-solid fa-bars"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        
+
+            <img class="header-logo" src="./assets/Coolmate-Logo.png" alt="header-logo">
+            <div class="header-right">
+                <ul class="header-navlinks">
+                    <li><a href="">Sale</a></li>
+                    <li><a href="">Sản phẩm</a></li>
+                    <li><a href="">Đồ Lót</a></li>
+                    <li><a href="">Đồ thể thao</a></li>
+                    <li><a href="">Mặc hàng ngày</a></li>
+                    <li><a href="">Nước hoa</a></li>
+                    <li><a href="">Sản xuất riêng</a></li>
+                    <li>
+                        <a href=""><img src="./assets/care-share.png" alt="care-share"></a>
+                    </li>
+                </ul>
+                <div class="header-user-handle">
+                    <div class="header-search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    </div>
+                    <a href=""><i class="fa-regular fa-user"></i></a>
+                    <div class="header-bag">
+                        <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                        <span>0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Banner slide component-->
+        <div class="banner-slide-component">
+            <a href=""><img src="./assets/banner_slide.jpg" alt="banner-slide"></a>
+        </div>
+
+        <!-- new products component -->
+        <div class="new-products-container">
+            <div class="new-products-container-top">
+                <button>Sản phẩm mới</button>
+                <button>Hàng hot giá xịn</button>
+            </div>
+            <div class="new-products-container-bottom">
+                
+                <!-- Product number 1 -->
+                <div class="new-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(4)</span>
+                        </div>
+                        <button class="Saving-Packs">Saving Packs</button>
+                    </div>
+                    <img src="./assets/set-graphic-jungle.png" alt="item-1">
+                    
+                    <!-- Thẻ để chọn màu khi nào có thì mở thẻ ra -->
+                    <!-- <div class="item-list-color">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div> -->
+                    <h3 class="item-name-product">
+                        <a href="">Set Đồ Chạy Bộ Graphic Jungle</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>449.000đ</span>
+                        <button>-34%</button>
+                        <span>676.000đ</span>
+                    </div>
+                    <div class="products-notes">
+                        <span>
+                            Gaiter mặt nạ giao màu ngẫu nhiên | 
+                            Giao hàng từ HCM
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Products number 2 -->
+                <div class="new-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.3</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(6)</span>
+                        </div>
+                        <button class="Saving-Packs">Saving Pakcs</button>
+                    </div>
+                    <img src="./assets/set-graphic-tropical.png" alt="item-2">
+                    <!-- <div class="item-list-color">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div> -->
+                    <h3 class="item-name-product">
+                        <a href="">Set Đồ Chạy Bộ Graphic Tropical</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>449.000đ</span>
+                        <button>-34%</button>
+                        <span>676.000đ</span>
+                    </div>
+                    <div class="products-notes">
+                        Gaiter mặt nạ giao màu ngẫu nhiên |
+                        Giao hàng từ HCM
+                    </div>
+
+                </div>
+
+                <!-- Products number 3 -->
+                <div class="new-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.8</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(1575)</span>
+                        </div>
+                        <button class="need-buy">Đáng mua</button>
+                    </div>
+                    <img src="./assets/combo-3-quan-lot.png" alt="item-3">
+                    <div class="item-list-color">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Combo 3 Quần Lót Nam Trunk Bamboo</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>209.000</span>
+                        <button>-30%</button>
+                        <span>299.000</span>
+                    </div>
+                </div>
+
+                <!-- Product number 4 -->
+                <div class="new-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.7</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(390)</span>
+                        </div>
+                        <button class="Saving-Packs">Saving Packs</button>
+                    </div>
+                    <img src="./assets/combo-5-quan-lot.png" alt="item-4">
+                    <div class="item-list-color">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Combo 5 Quần Lót Nam Trunk Bamboo</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>349.000</span>
+                        <button>-30%</button>
+                        <span>499.000</span>
+                    </div>
+                </div>
+
+                <!-- Product number 5 -->
+                <div class="new-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.8</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(1198)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/ao_thun_nam.png" alt="item-5">
+                    <div class="item-list-color">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        Áo Thun Nam
+                    </h3>
+                    <div class="item-price">
+                        <span>96.000</span>
+                        <button>-10%</button>
+                        <span>129.000</span>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    
+        <!-- Banner block Running Component -->
+        <div class="banner-block-running-container">
+            <img src="./assets/running.png" alt="banner-block-running-img">
+            <div>
+                <h2>Đồ chạy bộ</h2>
+                <p>Trải nghiệm chưa từng có trong mỗi sải chân</p>
+                <button>Khám phá ngay</button>
+            </div>
+        </div>
+
+        <!-- Running producs component -->
+        <div class="running-products-container">
+            <div class="running-products-container-top">
+                <p>Sản phẩm chạy bộ</p>
+                <a href="">Xem thêm</a>
+            </div>
+            <div class="running-products-container-bottom">
+            
+                <!-- Product number 1 -->
+                <div class="running-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(256)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/running-item-1.png" alt="running-item-1">
+                    
+                    <div class="item-list-color-1">
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Áo thun chạy bộ Graphic Special</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>189.000đ</span>
+                        <button>-5%</button>
+                        <span>199.000đ</span>
+                    </div>
+                </div>
+
+                <!-- Product number 2 -->
+                <div class="running-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(34)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/running-item-2.png" alt="running-item-1">
+                    
+                    <div class="item-list-color-2">
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Áo Thun Chạy Bộ Graphic Heartbeat</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>189.000đ</span>
+                        <button>-5%</button>
+                        <span>199.000đ</span>
+                    </div>
+                </div>
+
+                <!-- Product number 3 -->
+                <div class="running-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(10)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/running-item-3.png" alt="running-item-1">
+                    
+                    <div class="item-list-color-3">
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Áo Singlet Chạy Bộ Graphic Special</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>189.000đ</span>
+                        <button>-5%</button>
+                        <span>199.000đ</span>
+                    </div>
+                </div>
+
+                <!-- Product number 4 -->
+                <div class="running-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(256)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/running-item-4.png" alt="running-item-1">
+                    
+                    <div class="item-list-color-4">
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Áo thun chạy bộ Graphic Special</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>189.000đ</span>
+                        <button>-5%</button>
+                        <span>199.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="running-products-container-bottom-mobile">
+                <a href="">Xem thêm</a>
+            </div>
+        </div>
+        
+        <!-- Banner block POLO Component -->
+        <div class="banner-block-running-container">
+            <img src="./assets/banner-polo.png" alt="banner-block-polo-img">
+            <div>
+                <h2>POLO thể thao</h2>
+                <p>Công nghệ Ex-Dry thấm hút tối ưu & khô thoáng nhanh chóng</p>
+                <button>Khám phá ngay</button>
+            </div>
+        </div>
+               
+        <!-- POLO producs component -->
+        <div class="running-products-container">
+            <div class="running-products-container-top">
+                <p>Sản phẩm polo thể thao</p>
+                <a href="">Xem thêm</a>
+            </div>
+            <div class="running-products-container-bottom">
+            
+                <!-- Product number 1 -->
+                <div class="running-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(256)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/polo-item-1.png" alt="running-item-1">
+                    
+                    <div class="item-list-color-polo-1">
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Áo Polo Thể Thao Active Premium</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>189.000đ</span>
+                        <button>-5%</button>
+                        <span>199.000đ</span>
+                    </div>
+                </div>
+
+                <!-- Product number 2 -->
+                <div class="running-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(34)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/polo-item-2.png" alt="running-item-1">
+                    
+                    <div class="item-list-color-polo-2">
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Áo Polo Thể Thao Pro Active 1595</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>189.000đ</span>
+                        <button>-5%</button>
+                        <span>199.000đ</span>
+                    </div>
+                </div>
+
+                <!-- Product number 3 -->
+                <div class="running-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(10)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/polo-item-3.png" alt="running-item-1">
+                    
+                    <div class="item-list-color-polo-3">
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Áo Polo Thể Thao Pro Active 1595 Phối Màu</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>189.000đ</span>
+                        <button>-5%</button>
+                        <span>199.000đ</span>
+                    </div>
+                </div>
+
+                <!-- Product number 4 -->
+                <div class="running-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(256)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/polo-item-4.png" alt="running-item-1">
+                    
+                    <div class="item-list-color-polo-4">
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Áo Polo Nam Thể Thao Promax-S1</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>189.000đ</span>
+                        <button>-5%</button>
+                        <span>199.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="running-products-container-bottom-mobile">
+                <a href="">Xem thêm</a>
+            </div>
+        </div>
+
+        <!-- Banner block underware component -->
+        <div class="banner-block-running-container">
+            <img src="./assets/banner-underware.png" alt="banner-block-underware-img">
+            <div>
+                <h2>Quần lót</h2>
+                <p>Mát lạnh cùng công nghệ Excool</p>
+                <button>Khám phá ngay</button>
+            </div>
+        </div>
+
+        <!-- Underware products component -->
+        <div class="running-products-container">
+            <div class="running-products-container-top">
+                <p>Sản phẩm quần lót nam</p>
+                <a href="">Xem thêm</a>
+            </div>
+            <div class="running-products-container-bottom">
+            
+                <!-- Product number 1 -->
+                <div class="running-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(256)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/underware-item-1.png" alt="running-item-1">
+                    
+                    <div class="item-list-color-underware-1">
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Combo 3 Quần Lót Nam Trunk Excool Basics</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>189.000đ</span>
+                        <button>-5%</button>
+                        <span>199.000đ</span>
+                    </div>
+                </div>
+
+                <!-- Product number 2 -->
+                <div class="running-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(34)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/underware-item-2.png" alt="running-item-1">
+                    
+                    <div class="item-list-color-underware-2">
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Combo 3 Quần Lót Nam Trunk Ice Cooling</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>189.000đ</span>
+                        <button>-5%</button>
+                        <span>199.000đ</span>
+                    </div>
+                </div>
+
+                <!-- Product number 3 -->
+                <div class="running-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(10)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/underware-item-3.png" alt="running-item-1">
+                    
+                    <div class="item-list-color-underware-3">
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Combo 2 Quần Lót Nam Trunk Clean Cut</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>189.000đ</span>
+                        <button>-5%</button>
+                        <span>199.000đ</span>
+                    </div>
+                </div>
+
+                <!-- Product number 4 -->
+                <div class="running-products-bottom-item-1">
+                    <div class="item-top">
+                        <div class="item-top-left">
+                            <span>4.9</span>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(256)</span>
+                        </div>
+                        <button class="Sale">Sale</button>
+                    </div>
+                    <img src="./assets/underware-item-4.png" alt="running-item-1">
+                    
+                    <div class="item-list-color-underware-4">
+                        <div></div>
+                    </div>
+                    <h3 class="item-name-product">
+                        <a href="">Combo 3 Quần Lót Nam Trunk Ice Cooling</a>
+                    </h3>
+                    <div class="item-price">
+                        <span>189.000đ</span>
+                        <button>-5%</button>
+                        <span>199.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="running-products-container-bottom-mobile">
+                <a href="">Xem thêm</a>
+            </div>
+        </div>
+
+        <!-- Banner block care and share component -->
+        <div class="care-and-share-banner-block">
+            <a href=""><img src="./assets/care-and-share.png" alt="care-and-share"></a>
+        </div>
+
+        <!-- brand item component -->
+        <div class="brand-item-container">
+            <div class="brand-item-container-left">
+                <img src="./assets/brand-perfume.jpg" alt="CM24-perfume">
+                <div class="brand-item-container-left-content">
+                    <p>CM24 - Nước hoa nam</p>
+                    <h2>mua 1</br>được 3</h2>
+                    <a href="">khám phá ngay</a>
+                </div>
+            </div>
+
+            <div class="brand-item-container-right">
+                <img src="./assets/brand-84-rising.jpg" alt="84-rising">
+                <div class="brand-item-container-right-content">
+                    <p>84 rising - street wear</p>
+                    <h2>Disney</br>& Friend</h2>
+                    <a href="">khám phá ngay</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- product summary component -->
+        <div class="producs-summary-container">
+            <div class="producs-summary-container-all-products">
+                <div><a href=""><img src="./assets/producs-summary-container-item-1.jpg" alt="producs-summary-container-item-1"></a></div>
+                <div><a href=""><img src="./assets/producs-summary-container-item-2.jpg" alt="producs-summary-container-item-2"></a></div>
+                <div><a href=""><img src="./assets/producs-summary-container-item-3.jpg" alt="producs-summary-container-item-3"></a></div>
+                <div><a href=""><img src="./assets/producs-summary-container-item-4.jpg" alt="producs-summary-container-item-4"></a></div>
+            </div>
+            <div class="producs-summary-container-note">
+                <h2>Nhật ký coolmate</h2>
+                <p>Chia sẻ diện mạo mới nhất của bạn cùng với #Coolmate</p>
+            </div>
+
+            <div class="producs-summary-container-slide-products">
+                <div>
+                    <a href=""><img src="./assets/slide-product-1.jpg" alt="slide-product-1"></a>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <div>
+                    <a href=""><img src="./assets/slide-product-2.jpg" alt="slide-product-2"></a>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <div>
+                    <a href=""><img src="./assets/slide-product-3.jpg" alt="slide-product-3"></a>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <div>
+                    <a href=""><img src="./assets/slide-product-4.jpg" alt="slide-product-4"></a>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <div>
+                    <a href=""><img src="./assets/slide-product-5.jpg" alt="slide-product-5"></a>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Voucher banner component -->
+        <div class="voucher-banner-container">
+            <h2>Tham gia COOLCLUB - Nhận ngay Voucher 15% + Hoàn tiền khi mua sắm</h2>     
+            <div>
+                <a href="">ĐĂNG KÝ MIỄN PHÍ hoặc ĐĂNG NHẬP</a>
+                <a href="">Tìm hiểu đặc quyền Hội viên CoolClub</a>
+            </div>
+        </div>
+
+        <!-- Footer block component -->
+        <div class="footer-block-container">
+            <div class="footer-top-container">
+                <div class="footer-top-left-container">
+                    <h2>COOLMATE lắng nghe bạn!</h2>
+                    <p>Chúng tôi luôn trân trọng 
+                        và mong đợi nhận được mọi ý kiến đóng góp từ khách hàng 
+                        để có thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.
+                    </p>
+                    <a href=""><button>Đóng góp ý kiến</button></a>
+                </div>
+
+                <div class="footer-top-center-container">
+                    <div class="hotline">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <p>Hotline</p>
+                            <a href="">1900.272737 - 028.7777.2737</a>
+                            <p>(8:30 - 22:00)</p>
+                        </div>
+                    </div>
+
+                    <div class="email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <p>Email</p>
+                            <a href="">Cool@coolmate.me</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-top-right-container">
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+
+            <div class="footer-middle-container">
+                <div class="column-1">
+                    <h2>COOLCLUB</h2>
+                    <ul>
+                        <li><a href="">Đăng ký thành viên</a></li>
+                        <li><a href="">Ưu đãi đặc quyền</a></li>  
+                    </ul>                  
+                </div>
+
+                <div class="column-2">
+                    <h2>Chính sách</h2>
+                    <ul>
+                        <li><a href="">Chính sách đổi trả 60 ngày</a></li>
+                        <li><a href="">Chính sách khuyến mãi</a></li>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Chính sách giao hàng</a></li>
+                    </ul>
+                    <h2>COOLMATE.ME</h2>
+                    <li>
+                        <a href="">Lịch sử thay đổi website</a>
+                    </li>
+                </div>
+
+                <div class="column-3">
+                    <h2>Chăm sóc khách hàng</h2>
+                    <ul>
+                        <li><a href="">Trải nghiệm mua sắm 100% hài lòng</a></li>                   
+                        <li><a href="">Hỏi đáp-FAQs</a></li>
+                    </ul>
+                    <h2>Kiến thức mặc đẹp</h2>
+                    <ul>
+                        <li><a href="">Hướng dẫn chọn size</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="column-4">
+                    <h2>Tài liệu tuyển dụng</h2>
+                    <ul>
+                        <li><a href="">Tuyển dụng</a></li>
+                        <li><a href="">Đăng ký bản quyền</a></li>
+                    </ul>
+                    <h2>Về Coolmate</h2>
+                    <ul>
+                        <li><a href="">Coolmate 101</a></li>
+                        <li><a href="">DVKH xuất sắc</a></li>
+                        <li><a href="">Câu chuyện về Coolmate</a></li>                            
+                        <li><a href="">Nhà máy</a></li>                                
+                        <li><a href="">Care & Share</a></li>
+                    </ul>
+                </div>
+
+                <div class="column-5">
+                    <h2>Địa chỉ liên hệ</h2>
+                    <ul>
+                        <li>
+                            <p><span>Văn phòng Hà Nội:</span> 
+                                Tầng 3 Tòa nhà BMM, KM2, 
+                                Đường Phùng Hưng, Phường Phúc La, 
+                                Quận Hà Đông, TP Hà Nội</p>
+                        </li>
+                        <li>
+                            <p><span>Trung tâm vận hành Hà Nội:</span> 
+                                Lô C8, KCN Lại Yên, 
+                                Xã Lại Yên, Huyện Hoài Đức, Thành phố Hà Nội</p>
+                        </li>
+                        <li>
+                            <p><span>Văn phòng và Trung tâm vận hành TP. HCM:</span> 
+                                Lô C3, đường D2, KCN Cát Lái, 
+                                Thạnh Mỹ Lợi, TP. Thủ Đức, TP. Hồ Chí Minh.</p>
+                        </li>
+                        <li>
+                            <p><span>Trung tâm R&D:</span> Tầng 2, NXLP - 24, 
+                                Khu The Manhattan - Vinhomes Grand Park, TP. Thủ Đức, TP. HCM
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom-container">
+                <h4>@CÔNG TY TNHH FASTECH ASIA</h4>
+                <p>Mã số doanh nghiệp: 0108617038. 
+                    Giấy chứng nhận đăng ký doanh nghiệp do Sở Kế hoạch và Đầu tư TP Hà Nội 
+                    cấp lần đầu ngày 20/02/2019.</p>
+            </div>
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
