@@ -140,6 +140,20 @@
     justify-content: space-between;
 }
 
+.header-container .header-right .header-navlinks li:hover{
+    background-color: #3f4335;
+}
+
+.header-container .header-right .header-navlinks li div{
+    background-color: #f4f4f4;
+}
+
+
+/* TẠO DROPDOWN LIST */
+
+/*HẾT PHẦN TẠO DROPDOWNLIST */
+
+
 .header-container .header-right .header-navlinks li a img {
     width: 81px;
     height: 24px;
